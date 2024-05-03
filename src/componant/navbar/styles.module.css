@@ -1,0 +1,21 @@
+nav {
+  @apply shadow-lg rounded-b-sm bg-purple-800 py-1;
+}
+nav .container {
+  @apply max-w-screen-xl flex flex-wrap items-center justify-between mx-auto;
+}
+nav .container .wrapper {
+  @apply flex items-center;
+}
+nav .container .wrapper .imgLogo {
+  @apply h-14 py-1 ps-3;
+}
+nav .container .wrapper .spanLogo {
+  @apply text-2xl font-semibold whitespace-nowrap text-blue-200;
+}
+nav .container .wrapper .imgProfile {
+  @apply w-12 h-12 rounded-full mx-3;
+}
+nav .container .wrapper .spanProfile {
+  @apply text-sm font-medium whitespace-nowrap text-pink-50;
+}/*# sourceMappingURL=styles.module.css.map */

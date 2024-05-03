@@ -1,0 +1,6 @@
+.container {
+  @apply p-2 px-8 pb-4 items-center;
+  select {
+    @apply bg-purple-700 border border-cream-200 text-white text-sm rounded-lg block w-full p-2.5;
+  }
+}

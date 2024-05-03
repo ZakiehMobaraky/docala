@@ -1,0 +1,45 @@
+.container {
+  @apply px-14 lg:px-7;
+}
+.container .wrapper {
+  @apply relative shadow-lg rounded-lg  overflow-auto grid-cols-12 sm:grid-cols-8;
+}
+.container .wrapper table {
+  @apply w-full text-sm text-center object-cover;
+}
+.container .wrapper table thead {
+  @apply text-xs text-blue-200 uppercase bg-purple-300;
+}
+.container .wrapper table thead tr th {
+  @apply px-4 py-3;
+}
+.container .wrapper table tbody {
+  @apply text-white bg-purple-700;
+}
+.container .wrapper table tbody tr {
+  @apply border-b border-cream-200;
+}
+.container .wrapper table tbody tr th {
+  @apply px-4 py-2 font-medium whitespace-nowrap;
+}
+.container .wrapper table tbody tr td {
+  @apply px-4 py-2;
+}
+.container .wrapper table tbody tr .td {
+  @apply px-6 py-3;
+}
+.container .wrapper table tbody tr .td button {
+  @apply px-2 py-1 text-xs font-medium text-center rounded-md text-purple-700 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100;
+}
+.container .wrapper table tfoot {
+  @apply bg-purple-700 text-white;
+}
+.container .wrapper table tfoot tr {
+  @apply border-b-0 border-cream-200;
+}
+.container .wrapper table tfoot tr td {
+  @apply px-4 py-2;
+}
+.container .wrapper table tfoot tr .td {
+  @apply px-4 py-2 font-medium whitespace-nowrap;
+}/*# sourceMappingURL=styles.module.css.map */

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import ProductForm from "./componant/ProductForm";
-import ProductList from "./componant/ProductList";
-import Navbar from "./componant/Navbar";
-import ProductFilter from "./componant/ProductFilter";
+import ProductForm from "./componant/productform/ProductForm";
+import ProductList from "./componant/productlist/ProductList";
+import Navbar from "./componant/navbar/Navbar";
+import ProductFilter from "./componant/productfilter/ProductFilter";
 
 const App = () => {
   const [selectCategory, setSelectCategory] = useState("");
@@ -28,7 +28,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className="flex-wrap sm:flex items-center justify-center gap-x-6 gap-y-3 bg-purple-400 pt-4 pb-7 ">
+      <div className="flex-wrap sm:flex items-center justify-center gap-x-6 gap-y-3  pt-4 pb-7">
         <ProductForm
           onSubmit={(product) =>
             setProducts([...products, { ...product, id: products.length + 1 }])

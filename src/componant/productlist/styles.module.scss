@@ -1,0 +1,47 @@
+.container {
+  @apply px-14 lg:px-7;
+  .wrapper {
+    @apply relative shadow-lg rounded-lg  overflow-auto grid-cols-12 sm:grid-cols-8;
+    table {
+      @apply w-full text-sm text-center object-cover;
+      thead {
+        @apply text-xs text-blue-200 uppercase bg-purple-300;
+        tr {
+          th {
+            @apply px-4 py-3;
+          }
+        }
+      }
+      tbody {
+        @apply text-white bg-purple-700;
+        tr {
+          @apply border-b border-cream-200;
+          th {
+            @apply px-4 py-2 font-medium whitespace-nowrap;
+          }
+          td {
+            @apply px-4 py-2;
+          }
+          .td {
+            @apply px-6 py-3;
+            button {
+              @apply px-2 py-1 text-xs font-medium text-center rounded-md text-purple-700 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100;
+            }
+          }
+        }
+      }
+      tfoot {
+        @apply bg-purple-700 text-white;
+        tr {
+          @apply border-b-0 border-cream-200;
+          td {
+            @apply px-4 py-2;
+          }
+          .td {
+            @apply px-4 py-2 font-medium whitespace-nowrap;
+          }
+        }
+      }
+    }
+  }
+}
